@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Smadhan Setu</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            font: 16px Arial;
+            color: #243047;
+        }
+        header {
+            background: #263b66;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 22px;
+            flex-wrap: wrap;
+        }
+        nav a {
+            color: white;
+        }
+        .hero {
+            text-align: center;
+            padding: 55px 20px;
+            background: #eaf0ff;
+        }
+        .hero h1 {
+            font-size: clamp(2rem, 5vw, 3.4rem);
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+            gap: 18px;
+            padding: 25px;
+        }
+        .features article {
+            padding: 22px;
+            border-radius: 12px;
+            background: #f3f6fb;
+            box-shadow: 0 3px 10px #dce3ef;
+        }
+        footer {
+            text-align: center;
+            padding: 18px;
+            background: #263b66;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Samadhan Setu</h2>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="hero" id="home">
+        <h1>Judicial Triage Engine</h1>
+        <p>A Faster and Effective Solution to Backlog</p>
+        <a href="#features">Case History & Backlog</a>
+    </section>
+    <section class="features" id="features">
+        <article>
+            <h3>Understanding The case</h3>
+            <p>In depth Analyss Of case</p>
+            
+        </article>
+        <article>
+            <h3>Track Progress</h3>
+            <p>Real Time Tracking</p>
+        </article>
+        <article>
+            <h3>Cae Resolution</h3>
+            <p>Faster & Effective Solutions</p>
+        </article>
+    </section>
+    <footer id="contact">
+        Contact: krishnagupta.in21@gmail.com · © 2026 JalSetu
+    </footer>
+</body>
+</html>
